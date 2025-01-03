@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Footer.css'
 
 const Footer = () => {
@@ -41,12 +42,12 @@ const Footer = () => {
           </a>
         </div>
         <p>
-          <a
-            href='/contacto'
+          <Link
+            to='/contacto'
             style={{ textDecoration: 'none', color: 'inherit' }}
           >
             info@iglesiacasadedioszaragoza.es
-          </a>
+          </Link>
         </p>
         <p>+34 645 77 69 84</p>
         <p>Calle Santa Ororia 38, Zaragoza, España</p>
