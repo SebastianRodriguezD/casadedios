@@ -7,7 +7,7 @@ import Eventos from './pages/Eventos/Eventos'
 import NotFound from './pages/NotFound/NotFound'
 import ServiciosPage from './pages/ServiciosPage/ServiciosPage'
 import Footer from './components/Footer/Footer'
-import Header from './components/Headerr/Header'
+import Header from './components/Header/Header'
 
 const App = () => {
   return (
