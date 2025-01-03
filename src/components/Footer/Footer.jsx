@@ -13,7 +13,7 @@ const Footer = () => {
           >
             <img
               className='img_footer'
-              src='./src/assets/ubicación.png'
+              src='https://res.cloudinary.com/dpqksttwy/image/upload/v1735923463/Casa%20de%20Dios/ubicaci%C3%B3n_j7ljrf.png'
               alt='logo_ubicacion'
             />
           </a>
@@ -24,7 +24,7 @@ const Footer = () => {
           >
             <img
               className='img_footer'
-              src='./src/assets/facebook.png'
+              src='https://res.cloudinary.com/dpqksttwy/image/upload/v1735923462/Casa%20de%20Dios/facebook_j3ldyn.png'
               alt='logo_facebook'
             />
           </a>
@@ -35,7 +35,7 @@ const Footer = () => {
           >
             <img
               className='img_footer'
-              src='./src/assets/instagram.png'
+              src='https://res.cloudinary.com/dpqksttwy/image/upload/v1735923462/Casa%20de%20Dios/instagram_i5lvra.png'
               alt='logo_instagram'
             />
           </a>
