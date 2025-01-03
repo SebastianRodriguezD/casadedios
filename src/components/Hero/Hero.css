@@ -4,14 +4,20 @@
 .hero {
   background-color: white;
   padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative; /* Asegura que el contenedor tenga el tamaño correcto para alinear la imagen */
+  height: 100%;
+
+  text-align: center;
 }
 .home-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  text-align: center;
 }
 
 /* Título principal */
@@ -32,6 +38,7 @@
   height: 100%;
   cursor: pointer;
   filter: brightness(1.2) drop-shadow(0 0 10px var(--pr11-color-3));
+  margin: auto;
 }
 
 /* Banner y contenedor de texto */

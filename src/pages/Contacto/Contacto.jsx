@@ -39,7 +39,7 @@ const Contacto = () => {
           <Link to='/'>
             <img
               className='logo'
-              src='./src/assets/4317.PNG'
+              src='https://res.cloudinary.com/dpqksttwy/image/upload/v1735923512/Casa%20de%20Dios/logo_iglesia_xlmdn5.png'
               alt='logo-iglesia'
             />
           </Link>
