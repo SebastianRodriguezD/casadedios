@@ -1,6 +1,5 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
-import Header from './components/Header/Header'
 import Home from './pages/Home/Home'
 import Contacto from './pages/Contacto/Contacto'
 import Donacion from './pages/Donacion/Donacion'
@@ -8,6 +7,7 @@ import Eventos from './pages/Eventos/Eventos'
 import NotFound from './pages/NotFound/NotFound'
 import ServiciosPage from './pages/ServiciosPage/ServiciosPage'
 import Footer from './components/Footer/Footer'
+import Header from './components/Header/Header'
 
 const App = () => {
   return (
