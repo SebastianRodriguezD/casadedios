@@ -1,6 +1,6 @@
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { useState, useEffect } from 'react'
-import './header.css'
+import './Header.css'
 import Button from '../Burtton/Button'
 
 const Header = () => {
