@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className='hero'>
       <Link to='/'>
-        <img className='logo' src='./src/assets/4317.PNG' alt='logo-iglesia' />
+        <img className='logo' src='../assets/4317.PNG' alt='logo-iglesia' />
       </Link>
       <div className='home-container'>
         <h1 className='h1_home'>Casa de Dios</h1>

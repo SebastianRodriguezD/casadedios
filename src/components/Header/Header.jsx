@@ -15,11 +15,7 @@ const Header = () => {
     <header className='navbar'>
       <div>
         <Link to='/'>
-          <img
-            className='logo'
-            src='./src/assets/4317.PNG'
-            alt='logo-iglesia'
-          />
+          <img className='logo' src='../assets/4317.PNG' alt='logo-iglesia' />
         </Link>
       </div>
       <nav>
