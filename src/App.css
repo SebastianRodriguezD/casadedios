@@ -1,0 +1,26 @@
+/* Asegura que el contenido ocupe toda la altura disponible */
+html,
+body {
+  height: 100%; /* Esto asegura que el cuerpo ocupe toda la altura de la pantalla */
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* El contenedor de la app debe ocupar al menos toda la pantalla */
+}
+
+.main-content {
+  flex: 1;
+  min-height: 120svh; /* Hace que el contenido principal ocupe todo el espacio disponible */
+}
+
+footer {
+  background-color: #222; /* Color de fondo del footer */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}

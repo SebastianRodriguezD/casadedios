@@ -1,0 +1,104 @@
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  color: black;
+}
+
+.form-input.error {
+  border-color: red;
+}
+
+textarea.form-input {
+  height: 150px;
+  resize: vertical;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 767px) {
+  .contact-form {
+    padding: 15px;
+    max-width: 100%; /* Utiliza todo el ancho disponible */
+  }
+
+  label {
+    font-size: 14px; /* Ajusta el tamaño de la fuente en móviles */
+  }
+
+  .form-input,
+  textarea.form-input {
+    font-size: 14px; /* Reduce el tamaño de los inputs */
+    padding: 8px; /* Reduce el padding para mayor espacio en pantallas pequeñas */
+  }
+
+  .submit-btn {
+    font-size: 14px; /* Ajusta el tamaño del botón en móviles */
+    padding: 10px; /* Reduce el padding del botón */
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  label {
+    font-size: 13px; /* Ajusta aún más el tamaño de las etiquetas en pantallas muy pequeñas */
+  }
+
+  .form-input,
+  textarea.form-input {
+    font-size: 13px; /* Ajusta el tamaño de la fuente en los campos */
+  }
+
+  .submit-btn {
+    font-size: 13px;
+    padding: 8px; /* Reduce el padding para caber mejor en pantallas pequeñas */
+  }
+}

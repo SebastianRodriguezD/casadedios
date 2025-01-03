@@ -1,0 +1,50 @@
+/*Add the styles for your component here.*/
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ocupa toda la altura de la pantalla */
+  text-align: center;
+  background-color: #f9f9f9; /* Fondo claro */
+  color: #333; /* Color del texto */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.not-found-title {
+  font-size: 6rem; /* Tamaño grande para el título */
+  font-weight: bold;
+  color: #ff4a4a; /* Color rojo para destacar */
+  margin-bottom: 20px;
+}
+
+.not-found-subtitle {
+  font-size: 2rem; /* Subtítulo más pequeño */
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.not-found-text {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.not-found-link {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4caf50; /* Color verde para el botón */
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.not-found-link:hover {
+  background-color: #43a047; /* Cambia el color en hover */
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}

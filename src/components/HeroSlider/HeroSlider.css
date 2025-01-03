@@ -1,0 +1,41 @@
+.slider {
+  position: relative;
+  width: 80%; /* Mantiene un tamaño ajustado al diseño */
+  aspect-ratio: 9 / 3; /* Mantiene una proporción estándar para las imágenes */
+  overflow: visible;
+  margin: 0 auto; /* Centra el slider horizontalmente */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+}
+
+.slide.active {
+  opacity: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.slider-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Ajusta las imágenes para que no se recorten ni se deformen */
+  display: block;
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 6px 10px var(--pr11-color-3); /* Sombra para darle un mejor estilo */
+}

@@ -1,0 +1,87 @@
+/*Add the styles for your component here.*/
+/* Contenedor principal del Home */
+
+.hero {
+  background-color: white;
+  padding: 20px;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+/* Título principal */
+.h1_home {
+  padding-top: 20px;
+  font: bold 40px / 60px 'Raleway';
+  margin-bottom: 10px;
+  color: var(--pr11-color-3);
+}
+
+.p_home {
+  font: normal 26px / 26px 'Raleway';
+
+  margin-bottom: 20px;
+  color: #4d4e53;
+}
+.hero img {
+  height: 100%;
+  cursor: pointer;
+  filter: brightness(1.2) drop-shadow(0 0 10px var(--pr11-color-3));
+}
+
+/* Banner y contenedor de texto */
+.div_banner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  overflow: hidden;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.h2_banner {
+  font: bold 35px / 50px 'Raleway';
+  color: var(--pr11-color-3);
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.p_banner {
+  font: normal 26px / 26px 'Raleway';
+  color: #4d4e53;
+  margin-bottom: 15px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .h1_home {
+    font-size: 2em;
+  }
+
+  .p_home {
+    font-size: 1.2em;
+  }
+
+  .h2_banner {
+    font-size: 1.8em;
+  }
+
+  .p_banner {
+    font-size: 1em;
+  }
+}
